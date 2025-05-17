@@ -1,10 +1,10 @@
 import { BrowserRouter,  Navigate,  Route, Routes } from "react-router-dom";
-import Homepage from "./Pages/Homepage";
-import PageNotFound from "./Pages/PageNotFound";
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./pages/AppLayout";
 import "./index.css";
 import Product from './pages/Product';
-import Pricing from './Pages/Pricing';
+import Pricing from './pages/Pricing';
 import Login from './pages/Login';
 import CountryList from "./components/CountryList";
 import CityList from "./components/CityList";
