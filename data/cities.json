@@ -1,0 +1,125 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": 48.856613,
+        "lng": 2.352222
+      },
+      "id": 12345678
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "id": 87654321
+    },
+    {
+      "cityName": "New York",
+      "country": "United States",
+      "emoji": "🇺🇸",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": 40.7128,
+        "lng": -74.0060
+      },
+      "id": 11223344
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": 35.682839,
+        "lng": 139.759455
+      },
+      "id": 55667788
+    },
+    {
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": -33.8688,
+        "lng": 151.2093
+      },
+      "id": 99887766
+    },
+    {
+      "cityName": "Rio de Janeiro",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      "id": 33445566
+    },
+    {
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2027-01-01T00:00:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": 30.0444,
+        "lng": 31.2357
+      },
+      "id": 77889900
+    }
+  ]
+}
