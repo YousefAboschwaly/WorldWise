@@ -10,7 +10,7 @@ const emojiToCountryCode = (emoji) => {
 
   const firstChar = String.fromCharCode(0x41 + firstCodePoint);
   const secondChar = String.fromCharCode(0x41 + secondCodePoint);
-console.log(firstChar , secondChar)
+
   return firstChar + secondChar;
 };
 
