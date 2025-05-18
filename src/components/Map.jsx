@@ -34,7 +34,7 @@ export default function Map() {
       </Button>}
       <MapContainer
         center={mapPosition}
-        zoom={13}
+        zoom={6}
         scrollWheelZoom={true}
         className={styles.map}
       >
@@ -66,7 +66,7 @@ export default function Map() {
 
 function ChangeCenter({position}){
   const map = useMap()
-  map.setView(position,6)
+  map.setView(position)
   return null
 }
 function DetectClick (){
