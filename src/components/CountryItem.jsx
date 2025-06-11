@@ -1,4 +1,3 @@
-import ReactCountryFlag from "react-country-flag"
 import styles from "./CountryItem.module.css"
 import CountryFlag from "./CountryFlag"
 
@@ -27,3 +26,4 @@ function CountryItem({ country }) {
 }
 
 export default CountryItem
+ 
