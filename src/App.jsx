@@ -14,8 +14,8 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 export default function App() {
   return (
-    <CitiesProvider>
-      <AuthProvider>
+    <AuthProvider>
+      <CitiesProvider>
         <BrowserRouter>
           <Routes>
             <Route index element={<Homepage />} />
@@ -36,7 +36,7 @@ export default function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>
-      </AuthProvider>
-    </CitiesProvider>
+      </CitiesProvider>
+    </AuthProvider>
   );
 }
