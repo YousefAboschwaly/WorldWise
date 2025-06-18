@@ -14,10 +14,7 @@ function User() {
   }
 
 
-
-  if(!isAuthenticated){
-    return null; // or a loading spinner, or redirect to login
-  }
+  if (!isAuthenticated) return null; // Don't render if not authenticated
 
   return (
     <div className={styles.user}>
