@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
 import { useCities } from "../contexts/CitiesContext";
@@ -26,7 +25,7 @@ function City() {
   
   useEffect(function(){
     getCity(cityId)
-  },[cityId])
+  },[cityId, getCity])
   const {cityName, date, notes,emoji} = currentCity;
 
 if(isLoading) return <Spinner/>

@@ -1,5 +1,6 @@
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useReducer,
@@ -49,7 +50,7 @@ function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
-  async function getCity(id) {
+const getCity = useCallback(  async function getCity(id) {
     if (currentCity.id === Number(id)) return; // If the city is already loaded, do nothing
     dispatch({ type: "loaded" });
     try {
@@ -59,7 +60,7 @@ function CitiesProvider({ children }) {
     } catch {
       dispatch({ type: "rejected", payload: "Error fetching cities" });
     }
-  }
+  },[currentCity.id])
 
   async function createCity(newCity) {
     dispatch({ type: "loaded" });
